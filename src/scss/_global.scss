@@ -18,11 +18,10 @@ a{
     transition: color 0.3s;
     &:hover{
         color: $accent-color;
-        text-decoration: underline;
     }
-    .active{
-        color: $accent-color;
-    }
+}
+.active{
+    color: $accent-color;
 }
 .wrapper {
     min-height: 100%;
