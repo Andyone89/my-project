@@ -5,3 +5,25 @@
     font-weight: 600;
     font-size: 14px;
 }
+.header nav{
+    padding-block: 30px;
+    border-top: 1px solid #32323D;
+    border-bottom: 1px solid #32323D;
+    background-color: $bg-color !important;
+    position: relative;
+}
+.navbar-brand img{
+    min-width: 54px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.header .navbar-nav .nav-link{
+    text-transform: uppercase;
+    color: $text-color;
+    padding-inline: 17px;
+}
+.header .navbar-nav .nav-link:hover,
+.header .navbar-nav .nav-link.active{
+    color: $accent-color;
+}
